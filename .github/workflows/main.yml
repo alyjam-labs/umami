@@ -29,3 +29,4 @@ jobs:
           context: .
           push: true
           tags: us-west2-docker.pkg.dev/opennovel-431106/umami/umami:latest
+          build-arg: DATABASE_TYPE=postgres
